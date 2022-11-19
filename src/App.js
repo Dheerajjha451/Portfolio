@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React  from 'react'
-import Header from './components/header/Header'
+import Header from './components/header/Header.js'
 import Nav from './components/nav/Nav'
 import About from './components/about/About2'
 import Experience from './components/experience/Experience'
@@ -14,16 +14,18 @@ import Footer from './components/footer/Footer'
 export default function App(){
 
  return(
-<div>
-<Header /> 
+     <div>
+         <h1>HELLO WORLD</h1>
+
+          <Header /> 
     <Nav />
-    <About />
+     <About />
     <Experience/>
     <Services/>
     <Portfolio/>
-    <Testimonials/>
+    {/* <Testimonials/> */}
     <Contact/>
     <Footer/>
-</div>
+     </div>
  )
 }

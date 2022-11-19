@@ -14,8 +14,8 @@ const About = () => {
       <h5>Get to Know</h5>
       <h2>About Me</h2>
       <div className='container about__container'>
-        <div className='about__me'>
-          <div className='about__me-image'>
+        <div className='about_me'>
+          <div className='about_me-image'>
           <img src={ME} alt="About Image"/>
           </div>
         </div>
@@ -27,8 +27,8 @@ const About = () => {
               <small>3+ years working</small>
             </article>
 
-            <article className='about__card'>
-              <BiUser  className='about__icon'/>
+            <article className='about_card'>
+              <BiUser  className='about_icon'/>
               <h5>Clients</h5>
               <small>200+ worldwide</small>
             </article>

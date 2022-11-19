@@ -34,7 +34,11 @@ header{
     background:  var(--color-primary);
    
 }    
- 
+.side-by-side{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+}
    /*-----------ME -----------*/
 .me{
  background: var(--color-primary);

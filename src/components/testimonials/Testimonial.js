@@ -44,12 +44,18 @@ const data =[
   },
 ]
 
-const Testimonial = () => {
+export default function Testimonial(){
+  // const c=data.map(data=>{
+  //   <Card
+  //   {...data}
+  //   />
+  // })
   return (
     <section id='testimonials'>
       <h5>Review from clients</h5>
       <h2>Testimonials</h2>
-      <Swiper className='container testimonials__container'>
+      {/* {c} */}
+      {/* <Swiper className='container testimonials__container'>
       modules={[Pagination]}
       spaceBetween={40}
       slidesPerView={1}
@@ -72,9 +78,7 @@ const Testimonial = () => {
         }
         ))
        }
-      </Swiper>
+      </Swiper> */}
     </section>
   )
 }
-
-export default Testimonial
